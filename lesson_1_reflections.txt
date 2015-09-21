@@ -1,0 +1,28 @@
+How did saving the versions help you find the bug?
+A. Since we were looking for a type and one of the lines showed a type for 'space' it was easy to find
+
+Q. How could having easy access to entire history of a file make you a more efficient programmer in the long term?
+
+A.I'll be able to see the evolution of the work so I'll know when the code gets broken in newer versions where to look for possible problems. 
+It'll also help get an idea of the productivity and keeping log of what functionality was added when.
+
+
+Q. what do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A. The advantage is that each commit can be more meaningful and distinct. It also reduces too many commits which can happen if done automatically. The disadvantage is that you can accidentally lose your work if you dont commit for too long.
+
+Q. Why do you think some version control systems like Git allow saving multiple files in one commit, while others, like google Docs, treat each file separately?
+
+A. The purpose of google docs is different from that of Git, hence. Google docs is mostly used for documents which don't have much relationship between eachother whereas Git is used for code where there is a strong relationship between files?
+
+Q. How can you use git log and git diff to view the history of files?
+
+A. Git log shows a log of all the commits and the associated commit message. This can tell us what was changed during each commit. Git diff shows the diff between files, as to what additions, deletions and changes wee made.
+
+Q. How might version control make you more confident to make changes that could break somehting?
+
+A. Since we can always find when sonmething was broken, I do not have to worry about breaking something inadvertently.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+A. Make commits. Resolve changes made to repository with mine. Know how to work on multiple commits at the same time.
