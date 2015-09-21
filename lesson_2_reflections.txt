@@ -1,0 +1,7 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+A. When you initialize a repository, Git starts tracking the directory contents and initializes the metadata needed for tracking the versions.
+
+Q. How is staging area different from the working directory and the repository? What value do you think it offers?
+
+A. Staging area is a place holder for changes before they're committed. It'll help revert changes.
