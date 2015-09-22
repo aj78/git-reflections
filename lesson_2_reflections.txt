@@ -5,3 +5,23 @@ A. When you initialize a repository, Git starts tracking the directory contents 
 Q. How is staging area different from the working directory and the repository? What value do you think it offers?
 
 A. Staging area is a place holder for changes before they're committed. It'll help revert changes.
+
+Q. How can you use the staging area to make sure you have one logical change per commit?
+
+A. While commmitin we can add to the staging area only the changes related to one logical change.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. When I want to work on than one sub-projects which are distinct, branches would be useful. I can work on the branches will keeping the master intact.
+
+Q. How do the diagrams help you visualize the branch structure?
+
+A. Its easy to see branches and checkouts on the diagrams, shown as a tree and so splitting and merging of branches can be seen easily.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A. The result is a single branch with commits from both the branches. Because we are merging into one branch.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. Git's automatic merging saves a lot of time by merge code where there is no conflict, leaving only the portions where there is conflict for the user to manually resolve. 
